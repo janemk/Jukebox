@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Boombox Player</title>
+</head>
+<body>
+  <h1>"<span id="songtitle"></span>" by <span id="songartist"></span></h1>
+  <div id="boombox">
+    <audio id="song" src=""></audio>
+    <img id="animation" src="" alt="Click to Start or Pause!" >
+  </div>
+<!-- Music controls -->
+
+  <button id="prevsong">BACK</button>
+  <button id="stopsong">STOP</button>
+  <button id="nextsong">NEXT</button>
+
+  <p id="volume"></p><p id="tip"></p>
+
+  <div id="volcontrol">
+    <button id="volup">Increase Volume</button>
+    <button id="mute">MUTE</button>
+    <button id="voldown">Decrease Volume</button>
+  </div>
+
+<!-- SPOTIFY -->
+<p>Search for a song via Spotify!</p>
+  <form action="">
+    <input type="text" placeholder="Enter a song name..">
+    <input type="submit" value="Load Song!">
+  </form>
+  <h4>Songs Played</h4>
+  <ul>
+
+  </ul>
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

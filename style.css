@@ -1,0 +1,16 @@
+body {
+  background-image: url("http://i46.photobucket.com/albums/f110/moongirl71958/Blings/SNOW_fall1.gif");
+  text-align: center;
+  margin: auto;
+  /*font-family: 'Indie Flower', cursive;*/
+  font-family: 'Coming Soon', sans-serif;
+  /*color:white;*/
+}
+
+#songartist {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
